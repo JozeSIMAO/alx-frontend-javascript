@@ -1,11 +1,11 @@
 // 1-block-scoped.js
 export default function taskBlock(trueOrFalse) {
-  const task = false;
-  const task2 = true;
+  let task = false;
+  let task2 = true;
 
   if (trueOrFalse) {
-    task = true;
-    task2 = false;
+    task = task;
+    task2 = task2;
   }
 
   return [task, task2];
