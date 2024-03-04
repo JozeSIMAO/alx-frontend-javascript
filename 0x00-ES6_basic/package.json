@@ -1,5 +1,4 @@
 {
-  "type": "module",
   "name": "your-project-name",
   "version": "1.0.0",
   "description": "Description of your project",
@@ -7,7 +6,7 @@
   "scripts": {
     "test": "jest",
     "lint": "eslint .",
-    "dev": "node 1-main.js"
+    "dev": "node 0-main.js"
   },
   "author": "Your Name",
   "license": "MIT",
