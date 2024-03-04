@@ -1,20 +1,20 @@
 {
-  "name": "0x00-es6_basic",
+  "name": "your-project-name",
   "version": "1.0.0",
-  "description": "javascript basics",
-  "main": "0-constants.js",
-  "type": "module",
+  "description": "Description of your project",
+  "main": "index.js",
   "scripts": {
-    "dev": "node 1-main.js"
+    "test": "jest",
+    "lint": "eslint ."
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Your Name",
+  "license": "MIT",
   "devDependencies": {
-    "eslint": "^8.57.0",
-    "eslint-config-airbnb": "^19.0.4",
-    "eslint-plugin-import": "^2.29.1",
-    "eslint-plugin-jsx-a11y": "^6.8.0",
-    "eslint-plugin-react": "^7.34.0",
-    "eslint-plugin-react-hooks": "^4.6.0"
+    "@babel/core": "^7.16.12",
+    "@babel/preset-env": "^7.16.11",
+    "eslint": "^8.7.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.24.2",
+    "jest": "^27.5.1"
   }
 }
