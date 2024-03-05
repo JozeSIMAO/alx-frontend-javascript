@@ -1,13 +1,21 @@
 {
   "type": "module",
-  "name": "0x01-es6_promise",
+  "name": "your-project-name",
   "version": "1.0.0",
-  "description": "",
-  "main": ".eslintrc.js",
+  "description": "Description of your project",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node 0-main.js"
+    "test": "jest",
+    "dev": "node"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Your Name",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.16.12",
+    "@babel/preset-env": "^7.16.11",
+    "eslint": "^8.7.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.24.2",
+    "jest": "^27.5.1"
+  }
 }
