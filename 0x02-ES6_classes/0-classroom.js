@@ -1,5 +1,6 @@
-export default class classRoom {
-  constructor(maxStudenstSize) {
-    this.maxStudenstSize = _maxStudentsSize;
+export default class Classroom {
+    constructor(maxStudentsSize) {
+      this.maxStudentsSize = maxStudentsSize;
+    }
   }
-}
+  
