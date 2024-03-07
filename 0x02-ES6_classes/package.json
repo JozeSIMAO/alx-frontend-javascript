@@ -1,0 +1,23 @@
+{
+    "name": "your_project_name",
+    "version": "1.0.0",
+    "description": "Your project description",
+    "main": "index.js",
+    "scripts": {
+      "test": "jest",
+      "lint": "eslint .",
+      "full-test": "npm run lint && npm run test"
+    },
+    "author": "Your Name",
+    "license": "MIT",
+    "devDependencies": {
+      "@babel/core": "^7.12.16",
+      "@babel/preset-env": "^7.12.16",
+      "babel-jest": "^27.4.6",
+      "eslint": "^7.32.0",
+      "eslint-config-airbnb-base": "^15.0.0",
+      "eslint-plugin-import": "^2.25.2",
+      "jest": "^27.4.7"
+    }
+  }
+  
